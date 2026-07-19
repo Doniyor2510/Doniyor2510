@@ -1,45 +1,53 @@
-# Hi, I'm Doniyor Sotiboldiyev 👋
+# Doniyor Sotiboldiyev
 
-## 🔐 Junior Penetration Tester
+**Penetration Tester · Application Security Researcher** — Tashkent, Uzbekistan
 
-Passionate about cybersecurity, ethical hacking, and web application security.  
-Focused on learning real-world penetration testing, vulnerability assessment, and practical labs.
-
----
-
-## 🛠 Skills
-
-- Web Application Penetration Testing
-- OWASP Top 10
-- Burp Suite
-- Nmap
-- Gobuster / Dirsearch
-- SQLMap
-- Linux & Windows Enumeration
-- Python / Bash Scripting
+I break web applications to help fix them. My focus is manual source-code review
+and responsible disclosure of real vulnerabilities in open-source software,
+alongside hands-on offensive security labs.
 
 ---
 
-## 📂 Featured Project
+## Security Research & Responsible Disclosure
 
-### Multi-VHost Security Lab
+I actively review open-source projects and report vulnerabilities through
+coordinated disclosure (GitHub Security Advisories and vendor security channels).
+Reported findings to date span:
 
-Custom enterprise-style penetration testing lab with 11 virtual hosts and realistic web vulnerabilities.
+- **Broken Access Control / IDOR** — cross-tenant object access, missing
+  authorization checks
+- **Server-Side Request Forgery (SSRF)** — internal-network and cloud-metadata reach
+- **Injection** — SQL injection, stored / reflected XSS
+- **Authentication & verification flaws** — payment-callback forgery, weak token handling
 
-🔗 Repository:  
-https://github.com/Doniyor2510/multi-vhost-security-lab
-
----
-
-## 📜 Certifications
-
-- ISC2 Certified in Cybersecurity (CC)
-- TryHackMe Advent of Cyber
-- Red-0 Fundamentals of Penetration Testing
+> Published advisories are linked here as they become public. All findings are
+> disclosed privately and coordinated with maintainers before publication.
 
 ---
 
-## 📫 Connect With Me
+## Core Skills
 
-- LinkedIn: https://linkedin.com/in/doniyor-sotiboldiyev
-- GitHub: https://github.com/Doniyor2510
+**Web Application Security**
+`OWASP Top 10` · `IDOR / Broken Access Control` · `SSRF` · `SQL Injection` · `XSS` · `Authentication flaws`
+
+**Methodology & Tooling**
+`Manual source-code review (source→sink)` · `Burp Suite` · `SQLMap` · `Nmap` · `Gobuster / Dirsearch`
+
+**Systems & Scripting**
+`Linux & Windows enumeration` · `Python` · `Bash` · `PHP code review`
+
+---
+
+## Featured Project
+
+**Multi-VHost Security Lab** — a custom enterprise-style penetration-testing
+environment with multiple virtual hosts and realistic, exploitable web
+vulnerabilities.
+→ https://github.com/Doniyor2510/multi-vhost-security-lab
+
+---
+
+## Contact
+
+- **LinkedIn:** https://linkedin.com/in/doniyor-sotiboldiyev
+- **GitHub:** https://github.com/Doniyor2510
