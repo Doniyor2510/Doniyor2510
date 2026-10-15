@@ -19,9 +19,17 @@ Reported findings to date span:
 - **Server-Side Request Forgery (SSRF)** — internal-network and cloud-metadata reach
 - **Injection** — SQL injection, stored / reflected XSS
 - **Authentication & verification flaws** — payment-callback forgery, weak token handling
+  
+> ## Published Advisories
 
-> Published advisories are linked here as they become public. All findings are
-> disclosed privately and coordinated with maintainers before publication.
+- [GHSA-f9fw-x3w2-rpmc](https://github.com/advisories/GHSA-f9fw-x3w2-rpmc) — Wavelog: Cross-user IDOR in OQRS (QSL request)
+- [CVE-2026-93341](https://nvd.nist.gov/vuln/detail/CVE-2026-93341) — Marketing plugin: Missing Authorization (send_refund)
+- [CVE-2026-93342](https://nvd.nist.gov/vuln/detail/CVE-2026-93342) — Marketing plugin: Missing Authorization (duplicate_product)
+- [CVE-2026-93343](https://nvd.nist.gov/vuln/detail/CVE-2026-93343) — Marketing plugin: Missing Authorization (admin_vendors_ajax)
+- [CVE-2026-93344](https://nvd.nist.gov/vuln/detail/CVE-2026-93344) — Marketing plugin: Missing Authorization (get_page_content)
+- [GHSA-vm4w-wwpg-v3rc](https://github.com/advisories/GHSA-vm4w-wwpg-v3rc) — BorgBackup: Multiple security vulnerabilities
+- [GHSA-6234-p3mh-7j3x](https://github.com/advisories/GHSA-6234-p3mh-7j3x) — Panopticon: Server-Side Request Forgery (SSRF)
+- [GHSA-7r2x-23gv-gf3w](https://github.com/advisories/GHSA-7r2x-23gv-gf3w) — personal-drive: Broken Access Control
 
 ---
 
